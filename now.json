@@ -1,6 +1,6 @@
 {
     "functions": {
-        "api/grocy/*/*.php": {
+        "api/grocy/public/index.php": {
           "runtime": "now-php@0.0.9"
         }
       },
