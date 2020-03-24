@@ -1,7 +1,10 @@
 {
     "functions": {
-        "grocy/*.php": {
+        "api/grocy/*.php": {
           "runtime": "now-php@0.0.9"
-        }
+        },
+        "routes": [
+          { "src": "/grocy/(.*)",  "dest": "/api/grocy/app.php" }
+        ]
       }
 }
