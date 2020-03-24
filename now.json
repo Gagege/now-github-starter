@@ -1,10 +1,10 @@
 {
     "functions": {
-        "api/grocy/*": {
+        "api/grocy/public/index.php": {
           "runtime": "now-php@0.0.9"
         }
       },
       "routes": [
-        { "src": "/grocy(.*)",  "dest": "/api/grocy/public" }
+        { "src": "/grocy(.*)",  "dest": "/api/grocy/public/index.php" }
       ]
 }
