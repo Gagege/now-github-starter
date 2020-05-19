@@ -6,19 +6,19 @@
     <link>http://example.com/</link>
     <description>My example channel</description>
     <image>
-         <title>Example App</title>
-         <url>https://www.christkirk.com/wp-content/themes/christkirk/images/logo.png</url>
-         <link>http://gageherrmann.com</link>
-      </image>
+       <title>Example App</title>
+       <url>https://www.christkirk.com/wp-content/themes/christkirk/images/logo.png</url>
+       <link>http://gageherrmann.com</link>
+    </image>
     <item>
        <title>App Update 1</title>
-       <author>Gage Herrmann</author>
+       <dc:creator>Gage Herrmann</dc:creator>
        <link>http://example.com/2002/09/01</link>
        <description>other things happened today</description>
     </item>
     <item>
        <title>App Update 2</title>
-       <author>Gage Herrmann</author>
+       <dc:creator>Gage Herrmann</dc:creator>
        <link>http://example.com/2002/09/02</link>
     </item>
   </channel>
