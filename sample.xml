@@ -2,15 +2,23 @@
 <rss version="2.0">
   <channel>
     <title>Example Channel</title>
+    <author>Gage Herrmann</author>
     <link>http://example.com/</link>
     <description>My example channel</description>
+    <image>
+         <title>Example App</title>
+         <url>https://www.christkirk.com/wp-content/themes/christkirk/images/logo.png</url>
+         <link>http://gageherrmann.com</link>
+      </image>
     <item>
-       <title>News for September the Second</title>
+       <title>App Update 1</title>
+       <author>Gage Herrmann</author>
        <link>http://example.com/2002/09/01</link>
        <description>other things happened today</description>
     </item>
     <item>
-       <title>News for September the First</title>
+       <title>App Update 2</title>
+       <author>Gage Herrmann</author>
        <link>http://example.com/2002/09/02</link>
     </item>
   </channel>
